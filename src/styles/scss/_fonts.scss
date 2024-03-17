@@ -1,0 +1,24 @@
+@font-face {
+  font-family: LTHoopBold;
+  src: url(../../assets/fonts/LTHoop-Bold.ttf);
+}
+
+@font-face {
+  font-family: LTHoopMedium;
+  src: url(../../assets/fonts/LTHoop-Medium.ttf);
+}
+
+@font-face {
+  font-family: LTHoopRegular;
+  src: url(../../assets/fonts/LTHoop-Regular.ttf);
+}
+
+@mixin HoopBold {
+  font-family: LTHoopBold;
+}
+@mixin HoopMedium {
+  font-family: LTHoopMedium;
+}
+@mixin HoopRegular {
+  font-family: LTHoopRegular;
+}

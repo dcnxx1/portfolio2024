@@ -1,0 +1,37 @@
+@import "../styles/scss/global";
+nav {
+  width: 100%;
+  border: 2px solid orange;
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  width: 70%;
+  border: 2px solid blue;
+}
+
+.imgcontainer {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.nav-navsection {
+  list-style: none;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  li {
+    border: 2px solid green;
+    padding-inline: 10px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (width <= 320px) {
+  nav {
+    background-color: orange;
+  }
+}
